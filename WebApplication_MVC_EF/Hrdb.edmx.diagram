@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b9f32474ced24aa3afe24a1254fb7cca" Name="Diagram1">
+        <EntityTypeShape EntityType="HRDBModel.country" Width="1.5" PointX="3" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="HRDBModel.department" Width="1.5" PointX="7.5" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="HRDBModel.dependent" Width="1.5" PointX="12" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="HRDBModel.employee" Width="1.5" PointX="9.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="HRDBModel.job" Width="1.5" PointX="7.5" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="HRDBModel.location" Width="1.5" PointX="5.25" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HRDBModel.region" Width="1.5" PointX="0.75" PointY="2.125" IsExpanded="true" />
+        <AssociationConnector Association="HRDBModel.FK__countries__regio__276EDEB3" ManuallyRouted="false" />
+        <AssociationConnector Association="HRDBModel.FK__locations__count__2D27B809" ManuallyRouted="false" />
+        <AssociationConnector Association="HRDBModel.FK__departmen__locat__34C8D9D1" ManuallyRouted="false" />
+        <AssociationConnector Association="HRDBModel.FK__employees__depar__3C69FB99" ManuallyRouted="false" />
+        <AssociationConnector Association="HRDBModel.FK__dependent__emplo__403A8C7D" ManuallyRouted="false" />
+        <AssociationConnector Association="HRDBModel.FK__employees__job_i__3B75D760" ManuallyRouted="false" />
+        <AssociationConnector Association="HRDBModel.FK__employees__manag__3D5E1FD2" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
